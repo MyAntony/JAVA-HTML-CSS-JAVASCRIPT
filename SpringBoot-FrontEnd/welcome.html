@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Paciente</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Boas Vindas</title>
+    <link rel="stylesheet" href="welcome.css">
 </head>
 <body>
     <div class="container">
         <img src="logo.png" alt="Logo da Empresa" class="logo">
-        <h2>Cadastro de Paciente</h2>
+        <h2>Bem-Vindo - O que Deseja?</h2>
         <form id="cadastroForm">
-            <input type="name" id="nome" name="nome" placeholder="Nome" required>
+            <!-- <input type="name" id="nome" name="nome" placeholder="Nome" required>
             <input type="phone" id="telefone" name="telefone" placeholder="Telefone" required>
             <input type="email" id="email" name="email" placeholder="E-mail" required>
-            <input type="password" id="senha" name="senha" placeholder="Senha" required>
+            <input type="password" id="senha" name="senha" placeholder="Senha" required> -->
+            <a href="index.html" class="link-voltar">Cadastrar Paciente</a>
             <button type="button" onclick="cadastrarPaciente()">Cadastrar</button>
         </form>
 
@@ -24,7 +25,7 @@
 
     <div id="mensagem" class="mensagem oculto" onclick="fecharMensagem()"></div>
 
-    <script src="script.js"></script>
+    <script src="welcome.js"></script>
     
 </body>
 </html>

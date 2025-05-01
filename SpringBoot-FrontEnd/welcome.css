@@ -86,6 +86,20 @@ button:hover
     transform: translate(2px)
 }
 
+.link-voltar
+{
+    margin-top: 25px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+}
+
+.link-voltar:hover
+{
+    text-decoration: underline;
+}
+
+
 .link-pacientes
 {
     margin-top: 25px;

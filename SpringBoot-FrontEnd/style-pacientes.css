@@ -9,6 +9,12 @@ body
     height: 100vh;
 }
 
+.logo
+{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
 .container
 {
     background: white;
@@ -26,14 +32,14 @@ h2
     margin-bottom: 20px;
 }
 
-.lista-usuarios
+.lista-pacientes
 {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-.lista-usuarios li
+.lista-pacientes li
 {
     padding: 10px;
     margin-bottom: 10px;

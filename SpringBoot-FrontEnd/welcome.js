@@ -6,7 +6,7 @@ function cadastrarPaciente()
     const senha = document.getElementById('senha').value;
     const mensagem = document.getElementById('mensagem'); // Ensure this variable is used correctly
 
-    fetch('http://localhost:8080/pacientes',
+    fetch('http://localhost:8080/',
     {
         method: 'POST',
         headers:
